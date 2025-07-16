@@ -1,0 +1,6 @@
+raft_summarizer/
+__pycache__/
+*.pyc
+*.log
+.env
+.ipynb_checkpoints/
