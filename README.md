@@ -35,15 +35,20 @@ git clone https://github.com/ScriptSorcerer23/news-raft-summarizer.git
 cd news-raft-summarizer
 
  1. Create a .env file with your GNews API key
- cp .env.example .env
- Then open .env and paste your key like:
+ 
+   cp .env.example .env
+ 
+ Then open .env and paste your key:
  GNEWS_API_KEY=your_actual_api_key_here
 
  2. Install dependencies
-pip install -r requirements.txt
+ 
+ pip install -r requirements.txt
 
  3. Run FastAPI backend
-uvicorn main:app --reload
+ 
+ uvicorn main:app --reload
 
  4. Run Streamlit frontend (in a new terminal/tab)
-streamlit run app_frontend.py
+ 
+ streamlit run app_frontend.py
